@@ -1,6 +1,6 @@
 # MobileApplicationProject
 
-Assalomu Aleykum Mr Otabek Negmatov, i am student of group SE 2-20 Yunusov Nodirbek.
+Assalomu Aleykum Mr Otabek Negmatov, i am student of group SE 2-20 Yunusov Nodirbek (SE14053).
 
 My project about Testing system. This system for instructors which teaches individually. His/Her students can solve tests for upgrade their level and strenghten students knowledge
 
