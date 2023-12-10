@@ -1,0 +1,15 @@
+from .environ import (
+    ENVIRON_POSTGRES_DB, ENVIRON_POSTGRES_USER, ENVIRON_POSTGRES_PASSWORD, ENVIRON_POSTGRES_HOST, ENVIRON_POSTGRES_PORT
+)
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': f'{ENVIRON_POSTGRES_DB}',
+        'USER': f'{ENVIRON_POSTGRES_USER}',
+        'PASSWORD': f'{ENVIRON_POSTGRES_PASSWORD}',
+        'HOST': f'{ENVIRON_POSTGRES_HOST}',
+        'PORT': f'{ENVIRON_POSTGRES_PORT}',
+    }
+}
